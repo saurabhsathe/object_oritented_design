@@ -41,4 +41,14 @@ public abstract class Vehicle {
     public void setParked(boolean parked) {
         isParked = parked;
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "vehicleNum='" + vehicleNum + '\'' +
+                ", parkingSpot=" + parkingSpot +
+                ", vehicleType=" + vehicleType +
+                ", isParked=" + isParked +
+                '}';
+    }
 }

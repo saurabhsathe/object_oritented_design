@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42578afc-1ee3-45b0-8989-d3be29ffa1b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/ParkingSpotType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ParkingSpotType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/VehicleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
