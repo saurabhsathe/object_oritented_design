@@ -1,4 +1,4 @@
-package vehicle;
+package enums;
 
 public enum VehicleType {
 
