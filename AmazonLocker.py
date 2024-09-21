@@ -57,11 +57,11 @@ class RackManagerService(ABC):
 
 
     @abstractmethod
-    def placeItem():
+    def placeItem(self):
         pass
 
     @abstractmethod
-    def removeItem():
+    def removeItem(self):
         pass
 
 
