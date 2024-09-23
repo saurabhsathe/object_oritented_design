@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74b83381-c93c-4841-8bae-b9ac025bd84e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmazonLocker.py" beforeDir="false" afterPath="$PROJECT_DIR$/AmazonLocker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flink/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flink/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingLotApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLotApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingLotApp/ParkingLot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingLotApp/ParkingLot.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2mEB4yaPN9CqOomEIO5gaTXu9Mm" />
   <component name="ProjectLevelVcsManager">
