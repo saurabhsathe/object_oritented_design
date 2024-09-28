@@ -16,7 +16,8 @@ class ParkingLot:
         slots_per_level = self.total_spots // self.levels
         extra_slots = self.total_spots % self.levels
         for i in range(1, self.levels + 1):
-            self.spots_levels[i]["large"] = self.lotBuilder.getParkingSpots(slots_per_level // 2 + extra_slots, i,"large")
+            self.spots_levels[i]["large"] = self.lotBuilder.getParkingSpots(slots_per_level // 2 + extra_slots, i,
+                                                                            "large")
             extra_slots = max(extra_slots - 1, 0)
             self.spots_levels[i]["small"] = self.lotBuilder.getParkingSpots(slots_per_level // 2, i, "small")
             self.available_slots_level[i] = len(self.spots_levels[i]["small"]) + len(self.spots_levels[i]["medium"])
@@ -81,3 +82,30 @@ class SpotFactory:
             return [SmallParkingSpot(level) for _ in range(count)]
         else:
             return [LargeParkingSpot(level) for _ in range(count)]
+
+
+class ParkingManagerService(ABC):
+
+    @abstractmethod
+    def park(self):
+        pass
+
+    @abstractmethod
+    def leave(self, vehicle):
+        pass
+
+
+class SearchStrategy(ABC):
+
+    @abstractmethod
+    def search(self):
+        pass
+
+
+class SearchByVehicle(SearchStrategy):
+
+    def search(self):
+        pass
+class SearchByParkingSpot(SearchStrategy):
+    def search(self):
+        pass
